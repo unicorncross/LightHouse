@@ -52,7 +52,7 @@ def doCheck():
             for ap in regions:
                 dofetch(ids[i], keys[i], ap)
 
-  #  except TencentCloudSDKException as err:
+    except TencentCloudSDKException as err:
   #     print(err)
 
 

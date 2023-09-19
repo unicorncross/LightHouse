@@ -15,7 +15,7 @@ gaojinSatus="告警状态"
 SecretId = os.environ["SecretId"]
 SecretKey = os.environ["SecretKey"]
 
-regions = ["ap-beijing", "ap-chengdu", "ap-guangzhou", "ap-hongkong", "ap-nanjing", "ap-shanghai", "ap-singapore", "ap-tokyo", "eu-moscow", "na-siliconvalley"]
+regions = ["ap-guangzhou","ap-shanghai"]
 percent = 0.98  # 流量限额，1表示使用到100%关机，默认设置为95%
 tgToken = os.environ["tgToken"]
 
